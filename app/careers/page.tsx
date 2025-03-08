@@ -75,17 +75,17 @@ export default function CareersPage() {
           <h2 className="mb-12 text-center text-3xl font-bold text-gray-900 sm:text-4xl">Open Positions</h2>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {[
-              { title: "Senior Frontend Developer", department: "Engineering", location: "Remote", type: "Full-time" },
-              { title: "UX Designer", department: "Design", location: "San Francisco, CA", type: "Full-time" },
-              { title: "Product Manager", department: "Product", location: "New York, NY", type: "Full-time" },
-              { title: "Data Scientist", department: "Analytics", location: "Remote", type: "Full-time" },
+              { title: "Python Development Intern", department: "Engineering", location: "Remote", type: "Part-time" },
+              { title: "UX Design Intern", department: "Design", location: "Remote", type: "Part-time" },
+              { title: "Software Development Intern", department: "Engineering", location: "Remote", type: "Part-time" },
+              { title: "Data Science & ML Intern", department: "Analytics", location: "Remote", type: "Part-time" },
               {
-                title: "Customer Success Manager",
+                title: "Cyber Security Intern",
                 department: "Operations",
-                location: "London, UK",
-                type: "Full-time",
+                location: "Remote",
+                type: "Part-time",
               },
-              { title: "Marketing Specialist", department: "Marketing", location: "Remote", type: "Contract" },
+              { title: "Data Analytics Intern", department: "Analytics", location: "Remote", type: "Contract" },
             ].map((job, index) => (
               <div key={index} className="border-l-4 border-blue-500 bg-white p-6">
                 <h3 className="mb-2 text-lg font-semibold text-gray-800">{job.title}</h3>
